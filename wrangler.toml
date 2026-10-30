@@ -1,0 +1,17 @@
+# Site estático servido pelo Cloudflare (Workers Static Assets). Publicar: npm run deploy
+name = "lirianewagner"
+compatibility_date = "2026-10-01"
+main = "src/worker.js"
+
+# Domínio definitivo (zona lirianewagner.com.br no Cloudflare). O Cloudflare cria o DNS e o certificado.
+routes = [
+  { pattern = "lirianewagner.com.br", custom_domain = true },
+  { pattern = "www.lirianewagner.com.br", custom_domain = true }
+]
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+run_worker_first = true
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"

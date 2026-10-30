@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "mkdir -p .vercel-redirect && echo 'Site movido para https://lirianewagner.com.br' > .vercel-redirect/movido.txt",
+  "outputDirectory": ".vercel-redirect",
+  "installCommand": "",
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://lirianewagner.com.br/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://lirianewagner.com.br/$1",
+      "permanent": true
+    }
+  ]
+}

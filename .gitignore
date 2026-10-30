@@ -1,0 +1,19 @@
+# Build e dependências
+dist/
+node_modules/
+src/img/.tmp/
+.vercel-redirect/
+
+# Originais em alta resolução (pranchas do portfólio e logo original da cliente).
+# Não são versionados; as versões usadas pelo site ficam em src/img e src/assets/brand.
+source/
+
+# Credenciais e caches das plataformas de hospedagem
+.vercel/
+.wrangler/
+.env*
+
+# Ferramentas e sistema
+.impeccable/
+*.log
+.DS_Store

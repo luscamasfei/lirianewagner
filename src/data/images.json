@@ -1,0 +1,260 @@
+{
+  "casa-fachada": {
+    "width": 4269,
+    "height": 1441,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "casa-vertical": {
+    "width": 1032,
+    "height": 1445,
+    "widths": [
+      640,
+      1032
+    ]
+  },
+  "casa-plantas": {
+    "width": 1734,
+    "height": 1934,
+    "widths": [
+      640,
+      1280,
+      1734
+    ]
+  },
+  "casa-cortes": {
+    "width": 3824,
+    "height": 1045,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "centro-fachada": {
+    "width": 4269,
+    "height": 1490,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "centro-axonometria": {
+    "width": 978,
+    "height": 1668,
+    "widths": [
+      640,
+      978
+    ]
+  },
+  "centro-corte": {
+    "width": 3802,
+    "height": 867,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "centro-fachada-sul": {
+    "width": 4002,
+    "height": 956,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "centro-fachada-norte": {
+    "width": 4002,
+    "height": 767,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "pediatria-render": {
+    "width": 4251,
+    "height": 1194,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "pediatria-vertical": {
+    "width": 1032,
+    "height": 1463,
+    "widths": [
+      640,
+      1032
+    ]
+  },
+  "pediatria-mobiliario": {
+    "width": 2646,
+    "height": 1379,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "pediatria-vista": {
+    "width": 2401,
+    "height": 1178,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2401
+    ]
+  },
+  "pediatria-materiais": {
+    "width": 1245,
+    "height": 667,
+    "widths": [
+      640,
+      1245
+    ]
+  },
+  "pediatria-planta-humanizada": {
+    "width": 1423,
+    "height": 1734,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "pediatria-planta-tecnica": {
+    "width": 1912,
+    "height": 1890,
+    "widths": [
+      640,
+      1280,
+      1912
+    ]
+  },
+  "pediatria-marcenaria": {
+    "width": 3246,
+    "height": 2179,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "caju-panorama": {
+    "width": 4269,
+    "height": 1194,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "caju-cozinha": {
+    "width": 1390,
+    "height": 732,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "caju-estar": {
+    "width": 1390,
+    "height": 732,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "caju-vertical": {
+    "width": 1034,
+    "height": 1445,
+    "widths": [
+      640,
+      1034
+    ]
+  },
+  "onix-fachada": {
+    "width": 4269,
+    "height": 1234,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "onix-brinquedoteca": {
+    "width": 2319,
+    "height": 1078,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2319
+    ]
+  },
+  "onix-academia": {
+    "width": 1721,
+    "height": 961,
+    "widths": [
+      640,
+      1280,
+      1721
+    ]
+  },
+  "onix-coworking": {
+    "width": 1721,
+    "height": 1003,
+    "widths": [
+      640,
+      1280,
+      1721
+    ]
+  },
+  "onix-plantas": {
+    "width": 2512,
+    "height": 1668,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2512
+    ]
+  },
+  "onix-executivo": {
+    "width": 3824,
+    "height": 1957,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "retrato": {
+    "width": 983,
+    "height": 963,
+    "widths": [
+      640,
+      983
+    ]
+  }
+}
