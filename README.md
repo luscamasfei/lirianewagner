@@ -1,21 +1,33 @@
+**Português** · [English](README.en.md)
+
 # Liriane Wagner · Arquitetura e Interiores
 
 Portfólio digital da **arquiteta e urbanista Liriane Wagner**, de **Passo Fundo (RS)**.
 
 **Site no ar:** [lirianewagner.com.br](https://lirianewagner.com.br)
 
-O site apresenta os projetos de arquitetura e interiores da arquiteta e leva o visitante a pedir orçamento pelo WhatsApp. A proposta foi trocar uma página de links por um portfólio com cara de estúdio de arquitetura, com abertura em tela cheia, projetos contados como capítulos e plantas ao lado dos renders.
+O site apresenta os projetos de arquitetura e interiores da arquiteta e leva o visitante a pedir orçamento pelo WhatsApp. A proposta foi trocar uma página de links por um portfólio com cara de estúdio de arquitetura: abertura cinematográfica em tela cheia, tipografia editorial e os projetos como protagonistas, construídos em torno da logo oficial da arquiteta.
 
 ## O que tem no site
 
-- **Página inicial:** abertura em tela cheia, projetos selecionados, serviços, apresentação da arquiteta, processo de trabalho e contato.
-- **Uma página por projeto,** com ficha técnica, conceito, desafio, soluções, materiais, galeria e desenhos técnicos. Cada página tem endereço próprio, para compartilhar e aparecer no Google.
+- **Página inicial:** abertura em tela cheia, apresentação da arquiteta, projetos selecionados, serviços, processo de trabalho e contato.
+- **Uma página por projeto,** com capa em tela cheia, ficha técnica, conceito, desafio, soluções, materiais, galeria e desenhos técnicos. Cada projeto tem endereço próprio, para compartilhar e aparecer no Google.
 - **Contato pelo WhatsApp** com mensagens prontas para cada situação. Um formulário opcional de pré-orçamento organiza as respostas em uma mensagem, sem guardar dados no site.
 - **Galeria ampliada** navegável por teclado e por toque.
-- **Projetos identificados com honestidade:** cada um informa se é acadêmico ou profissional.
+- **Projetos identificados com honestidade:** cada um informa se é profissional ou acadêmico.
 - **Acessibilidade:** navegação por teclado, foco visível, contraste revisado e respeito à preferência do sistema por menos animação.
 - **Desempenho:** imagens responsivas em WebP e JPEG, carregamento sob demanda e fontes hospedadas no próprio site.
 - **SEO:** títulos e descrições por página, dados estruturados (schema.org), sitemap, robots.txt e imagens de compartilhamento.
+
+## Projetos apresentados
+
+| Projeto | Categoria | Contexto | Ano |
+|---|---|---|---|
+| Apartamento Caju | Interiores residenciais | Profissional, para a Oblíqua Construtora | 2025 |
+| Residencial Ônix | Interiores de áreas sociais | Participação em projeto profissional, Oblíqua Construtora | 2025 |
+| A Casa | Arquitetura residencial | Acadêmico | 2020 |
+| Consultório de Pediatria | Interiores comerciais | Acadêmico | 2021 |
+| Centro de Economia Criativa | Arquitetura e requalificação | Acadêmico | 2024 |
 
 ## Como funciona
 
@@ -64,9 +76,8 @@ Para um build sem domínio, por exemplo em outra hospedagem de teste, use `SITE_
 ## Adicionar um projeto
 
 1. Adicione os recortes das imagens em `CROPS` (`scripts/images.mjs`) e rode `npm run images`.
-2. Cadastre o projeto em `src/data/projects.mjs`.
-3. Inclua o projeto na seleção da página inicial em `projectsSection()` (`src/templates/home.mjs`).
-4. Rode `npm run check` antes de publicar.
+2. Cadastre o projeto em `src/data/projects.mjs`. O campo `cover` define a imagem do cartão na página inicial e o campo `hero`, a capa da página do projeto.
+3. Rode `npm run check`. O projeto entra automaticamente na página inicial, com os profissionais antes dos acadêmicos, e ganha página própria e entrada no sitemap.
 
 ## Uso de inteligência artificial
 
